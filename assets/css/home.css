@@ -2,15 +2,35 @@
 	width: 100%;
 	display: flex;
 	font-size: 0.26rem;
-	padding-top: 0.4rem;
+	padding-top: 37px;
 }
 .home-header {
 	position: fixed;
 	width: 100%;
-	height: 0.4rem;
-	border: 1px solid red;
 	top: 0;
 	left: 0;
+	background: #ff852a;
+}
+.home-header-box {
+	position: relative;
+	padding: 6px 9px 6px 42px;
+}
+.tbIcon {
+	position: absolute;
+	left: 8px;
+	top: 3px;
+	font-size: 28px;
+	color: #fff;
+}
+.searchCommodity {
+	display: block;
+	background: #ff4e22;
+	color: #f0e0dc;
+	height: 25px;
+	line-height: 25px;
+	font-size: 13px;
+	border-radius: 4px;
+	text-align: center;
 }
 .home-content {
 	height: 30rem;
