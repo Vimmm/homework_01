@@ -12,6 +12,7 @@
 	top: 0;
 	left: 0;
 	background: #ff852a;
+	z-index: 999;
 }
 .home-header-box {
 	position: relative;
